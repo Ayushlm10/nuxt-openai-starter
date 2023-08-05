@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.1",
+    "@unocss/nuxt": "^0.54.1",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "ai": "^2.1.32",
+    "openai-edge": "^1.2.2"
+  }
+}
