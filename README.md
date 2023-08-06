@@ -1,64 +1,30 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 , openai minimal starter with function calling
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+I have created this simple starter to get up and running with a nuxt-openai base along with function calling. It uses [vercel AI SDK](https://github.com/vercel-labs/ai).
 
 ## Setup
 
-Make sure to install the dependencies:
+To run the example locally you need to:
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
+1. Sign up at [OpenAI's Developer Platform](https://platform.openai.com/signup).
+2. Go to [OpenAI's dashboard](https://platform.openai.com/account/api-keys) and create an API KEY.
+3. Set the required OpenAI environment variable as the token value as shown [the example env file](./.env.example) but in a new file called `.env`.
+4. `pnpm install` to install the required dependencies.
+5. `pnpm dev` to launch the development server.
+   Make sure to install the dependencies:
 
 ## Production
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
 # pnpm
 pnpm run build
-
-# yarn
-yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
 # pnpm
 pnpm run preview
-
-# yarn
-yarn preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# nuxt-openai-starter
